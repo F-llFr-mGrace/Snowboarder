@@ -1141,6 +1141,7 @@ GameObject:
   - component: {fileID: 1573518626}
   - component: {fileID: 1573518630}
   - component: {fileID: 1573518631}
+  - component: {fileID: 1573518632}
   m_Layer: 0
   m_Name: Gracie
   m_TagString: Untagged
@@ -1162,7 +1163,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1262,6 +1263,19 @@ CircleCollider2D:
   m_Offset: {x: 0.45, y: 0.36}
   serializedVersion: 2
   m_Radius: 0.34
+--- !u!114 &1573518632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573518625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0a2993ef7ce13488fb4f7cc5b86766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fltTorqueAmount: 5
 --- !u!1 &1849602891
 GameObject:
   m_ObjectHideFlags: 0
