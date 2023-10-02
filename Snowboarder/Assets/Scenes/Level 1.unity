@@ -8443,6 +8443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42d07623f47dae340a8f88daf250fe2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dustParticles: {fileID: 1612757852}
 --- !u!1 &1612757849
 GameObject:
   m_ObjectHideFlags: 0
@@ -8565,7 +8566,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
