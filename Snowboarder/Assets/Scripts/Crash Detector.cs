@@ -15,6 +15,7 @@ public class CrashDetector : MonoBehaviour
             crashEffect.Play();
             Invoke("ReloadScene", fltInvokeTime);
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
+            FindObjectOfType<PlayerController>().DisableControls();
         }
     }
     void ReloadScene()
